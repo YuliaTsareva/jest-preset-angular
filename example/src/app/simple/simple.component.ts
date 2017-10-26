@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Size} from './size';
 
 @Component({
   selector: 'app-simple',
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./simple.component.css']
 })
 export class SimpleComponent implements OnInit {
+  @Input() size: Size | null = null;
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }

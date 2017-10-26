@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { CalcComponent } from 'app/calc/calc.component';
 
-describe('CalcComponent', () => {
+xdescribe('CalcComponent', () => {
   let component: CalcComponent;
   let fixture: ComponentFixture<CalcComponent>;
 
